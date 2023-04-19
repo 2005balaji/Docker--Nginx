@@ -1,0 +1,35 @@
+#navspan {
+    color: var(--pure-black);
+    /* background-color: #1b1d21; */
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 18px;
+  }
+  
+  #navspan:hover {
+    color: var(--highlight-blue);
+  }
+
+
+  #grideven {
+    display: grid;
+    gap: 40px;
+    grid-auto-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--pure-white);
+  
+  }
+
+  #glowblue{
+    text-decoration: none;
+    color: var(--pure-black);
+  }
+
+  
+  #glowblue:hover{
+    text-decoration: none;
+        color: var(--highlight-blue);
+
+  }

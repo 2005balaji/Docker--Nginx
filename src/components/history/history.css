@@ -1,0 +1,131 @@
+#tablehead {
+  /* font-style: italic; */
+  font-weight: 700;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+}
+
+.histrytd {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", Helvetica;
+  text-align: left;
+  background-color: white;
+}
+
+#tableheadtd {
+  text-align: left;
+}
+
+td,
+th {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th {
+  background-color: var(--shady-purple);
+}
+
+#logHeading {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Rubik", Helvetica;
+  text-align: left;
+
+  border: none;
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.histrytd:nth-child(2) {
+  border-left: 0px solid rgb(255, 255, 255);
+}
+
+#viewbtn {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 2px;
+}
+
+.bottomborder {
+  border-bottom: 3px solid var(--lineshade-purple);
+}
+
+.bottomborders {
+  border-bottom: 1px solid var(--shady-ashborder);
+}
+
+#actionTabs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* CSS code for the SVG icon */
+.delete-icon path {
+  stroke: var(--shady-black);
+}
+
+.delete-icon:hover path {
+  stroke: var(--highlight-red); /* set the color of the icon on hover */
+}
+
+.delete-icon:active path {
+  stroke: var(--log-red);
+}
+#deleteIcon {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 3px;
+}
+
+#viewbtn:hover {
+  font-size: 16.5px;
+  border-radius: 2px;
+  color: var(--hover-green);
+}
+
+#viewbtn:active {
+  color: var(--click-green);
+}
+
+#viewbtw {
+  padding-left: 28px;
+}
+
+#historyHR {
+  border: none;
+  margin-top: 18px;
+  margin-bottom: 40px;
+  height: 1px;
+  background-color: var(--pure-black);
+  width: 78vw;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logTable {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0px solid var(--shady-ashborder);
+  text-align: left;
+}
+
+@media (max-width: 480px) {
+  #viewbtw {
+    padding-left: 8px;
+  }
+
+  #documentgif {
+    width: 100vw;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 400px) {
+  #actionTabs {
+    margin-top: 3vh;
+  }
+}
